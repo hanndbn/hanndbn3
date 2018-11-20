@@ -25,7 +25,7 @@ export class Home extends React.Component<IHomeProp> {
           <p className="lead">This is your homepage</p>
           {account && account.login ? (
             <div>
-              <Alert color="success">You are logged in as user {account.login}.</Alert>
+              <Alert color="success">You are logged in as user {account.login}.3</Alert>
             </div>
           ) : (
             <div>
@@ -48,7 +48,7 @@ export class Home extends React.Component<IHomeProp> {
               </Alert>
             </div>
           )}
-          <p>If you have any question on JHipster:</p>
+          <p>If you have any question on JHipster:1</p>
 
           <ul>
             <li>
